@@ -1,0 +1,80 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+nav a{
+    width: 120px;
+    display:block;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+header{
+    margin: 0 0 0 150px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.info{
+    margin: 0 0 0 150px;
+    padding: 0;
+}
+
+button{
+    margin: 0 0 0 150px;
+    height: 34px;
+    background: cyan;
+    border-radius: 8px;
+}
+aside{
+    max-width: 50%;
+    float: right;
+}
+form{
+    margin: 0 0 0 150px;
+    text-align-last: center;
+}
+.enterlink{
+    height: 100%;
+    margin: 0 0 0 170px;
+    background-image: url(file:///Users/aditya/Downloads/url-shortener-main/images/bg-boost-desktop.svg);
+}
+.link{
+    width: 700px;
+    height: 30px;
+    float: left;;
+    text-align-last:left;
+    border-radius: 8px;
+}
+.submitbutton{
+    height: 34px;
+    background: cyan;
+    border-radius: 8px;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+#features p{
+    text-align: center;
+    font-size: 12px;
+}
