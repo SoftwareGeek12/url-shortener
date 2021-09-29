@@ -8,7 +8,7 @@ body{
 
 ul{
     padding: 0;
-    margin: 0 0 0 150px;
+    margin: 0 0 0 120px;
     list-style: none;
 }
 
@@ -27,35 +27,41 @@ nav a{
 }
 
 header{
-    margin: 0 0 0 150px;
+    margin: 0 0 0 120px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
 }
 
 .info{
-    margin: 0 0 0 150px;
+    margin: 0 0 0 120px;
     padding: 0;
 }
 
 button{
-    margin: 0 0 0 150px;
+    margin: 0 0 0 120px;
     height: 34px;
     background: cyan;
     border-radius: 8px;
+    border-color: cyan;
 }
 aside{
-    max-width: 50%;
+    max-width: 70%;
     float: right;
+    background-size: cover;
+}
+.userinfo.button{
+    background: cyan;
 }
 form{
-    margin: 0 0 0 150px;
+    margin: 0 0 0 120px;
     text-align-last: center;
 }
 .enterlink{
     height: 100%;
-    margin: 0 0 0 170px;
+    margin: 0 180px 0 170px;
     background-image: url(file:///Users/aditya/Downloads/url-shortener-main/images/bg-boost-desktop.svg);
+    background-color: hsl(257, 27%, 26%);
 }
 .link{
     width: 700px;
@@ -67,6 +73,7 @@ form{
 .submitbutton{
     height: 34px;
     background: cyan;
+    width: 120px;
     border-radius: 8px;
 }
 h2{
@@ -74,7 +81,77 @@ h2{
     font-size: 30px;
     text-align: center;
 }
-#features p{
+#features header p{
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
+#features article{
+    margin: 0 0 0 120px;
+}
+#pricing{
+    margin: auto;
+    text-align:center;
+    height: 100%;
+    background-image: url(file:///Users/aditya/Downloads/url-shortener-main/images/bg-boost-desktop.svg), url(file:///Users/aditya/Downloads/url-shortener-main/images/bg-shorten-desktop);
+    background-color: hsl(257, 27%, 26%);
+    background-position:center;
+    background-repeat: repeat, repeat;
+    padding: 25px;
+}
+#pricing header h2{
+    text-align:center;
+    margin:auto;
+    color: white;
+}
+#pricing button{
+    align-items: center;
+}
+
+#resources h4{
+    margin: 0 0 0 120px;
+}
+#resources article ul{
+    margin: 0 0 0 120px;
+    list-style-type: none;
+}
+.social{
+    float: right;
+    margin: auto;
+}
+#svg {
+    background-color: hsl(257, 27%, 26%);
+    width: 25px;
+    height: 25px;
+    border: 5px solid hsl(257, 27%, 26%);
+  }
+  
+  .circle {
+    border-radius: 100%;
+  }
+ .container{
+     display: flex;
+ } 
+ .grid{
+     display: flex;
+     margin: 0 0 0 120px;
+     color: white; 
+}
+ .social{
+    color: rgb(236, 233, 233);
+ }
+ 
+ footer{
+     background: black;
+     height: 190px;
+ }
+ #resources a{
+     color: white;
+ }
+ #logo{
+    background: inherit;
+    background-clip: text;
+    color: transparent;
+    filter:invert(1) grayscale(1) contrast(5)
+ }
+ 
+ 
