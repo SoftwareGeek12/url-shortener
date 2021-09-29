@@ -26,18 +26,19 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+  <nav class="navbar">
       <ul>
         <li><a href="index.html"><img src= "images/logo.svg"></a></li>
         <li><a href="#features">Features </a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#resources">Resources</a></li>
+        <aside>
         <li><a href="login.html">Login</a></li>
-        <li><a href="signup.html">Sign Up</a></li>
-  
+        <li><a href="signup.html" >Sign Up</a></li>
+        </aside>
       </ul>
   </nav>
-
+  
   <main>
     <section>
       <header>
@@ -51,7 +52,7 @@
         on how your links are performing.
       </p></div></br>
       <button>Get Started</button>
-    </section></br></br>
+    </section></br></br></br>
     <section>
       <div class="enterlink"></br>
       <form action="#">
@@ -68,81 +69,96 @@
         <p>Track how your links are performing across the web with</br>
            our advanced statistics dashboard.
         </p>
-      </header>
-      <article><img src="images/icon-brand-recognition.svg" alt="brand recognition">
+      </header></br>
+      <div class="container">
+      <article><img src="images/icon-brand-recognition.svg" id="svg" class="circle" alt="brand recognition">
         <h3>Brand Recognition</h3>
-        <p>Boost your brand recognition with each click. Generic links don’t
-          mean a thing. Branded links help instil confidence in your content.
+        <p>Boost your brand recognition with
+           each click. Generic links don’t mean a
+          thing. Branded links help instil
+          confidence in your content.
         </p>
       </article>
-      <article><img src="images/icon-detailed-records.svg" alt="Detailed Records">
+      <article><img src="images/icon-detailed-records.svg" id="svg" class="circle" alt="Detailed Records">
         <h3>Detailed Records</h3>
         <p>
-          Gain insights into who is clicking your links. Knowing when and where
-          people engage with your content helps inform better decisions.
+          Gain insights into who is clicking your
+          links. Knowing when and where
+          people engage with your content  
+          helps inform better decisions.
         </p>
       </article>
-      <article><img src="images/icon-fully-customizable.svg" alt="Fully Customizable">
+      <article><img src="images/icon-fully-customizable.svg" id="svg" class="circle" alt="Fully Customizable">
         <h3>Fully Customizable</h3>
-        <p>Improve brand awareness and content discoverability through customizable
-          links, supercharging audience engagement.
+        <p>Improve brand awareness and
+           content discoverability through 
+           customizable links, supercharging
+           audience engagement.</br> 
         </p>
       </article>
+      </div>
     </section>
     <section id="pricing">
       <header>
         <h2>Boost your links today</h2>
       </header>
-      <a href="getstarted.html">Get Started</a>
+      <button>Get Started</button>
     </section>
-  </main>
-  <footer id="resources">
-    <a href="index.html"><img src="images/logo.svg" alt="Shortener"></a>
+  </main></body>
+  <footer id="resources"></br>
+    <div class="grid">
+    <a href="index.html"><img src="images/logo.svg" id="logo" alt="Shortener"></a>
     <article>
       <h4>Features</h4>
-      <a href="#">Link Shortening
-
-      </a><a href="#">Branded Links
-      </a><a href="#">Analytics</a>
+      <ul>
+      <li><a href="#">Link Shortening
+      </a></li></br>
+    <li><a href="#">Branded Links
+      </a></li></br>
+      <li><a href="#">Analytics</a></li></br>
+    </ul>
     </article>
     <article>
       <h4>Resources</h4>
-      <a href="#">Blog
-      </a>
-      <a href="#">Developers</a>
-      <a href="#">Support</a>
+    <ul>
+      <li><a href="#">Blog</a></li></br>
+    <li><a href="#">Developers</a></li></br>
+      <a href="#">Support</a></br>
+    </ul>
     </article>
     <article>
       <h4>Company
       </h4>
+      <ul>
+      <a href="#">About</a></br>
       <a href="#">
-        About</a><a href="#">
-        Our Team</a>
+        Our Team</a></br>
       <a href="#">
-        Careers</a>
+        Careers</a></br>
       <a href="#">
-        Contact</a>
+        Contact</a></br>
+        </ul>
     </article>
-    <article>
+    <article class="social">
       <a href="https://facebook.com">
-        <!--            remove the hardcoded style-->
-        <img src="images/icon-facebook.svg" style="background-color: #00f;" alt="https://facebook.com">
+        <img src="images/icon-facebook.svg" alt="https://facebook.com">
       </a>
       <a href="https://twitter.com">
-        <img src="images/icon-twitter.svg" style="background-color: #00f;" alt="https://twitter.com">
+        <img src="images/icon-twitter.svg" alt="https://twitter.com">
       </a>
       <a href="https://pinterest.com">
-        <img src="images/icon-pinterest.svg" style="background-color: #00f;" alt="https://pinterest.com">
+        <img src="images/icon-pinterest.svg" alt="https://pinterest.com">
       </a>
       <a href="https://instagram.com">
-        <img src="images/icon-instagram.svg" style="background-color: #00f;" alt="https://instagram.com">
+        <img src="images/icon-instagram.svg" alt="https://instagram.com">
       </a>
     </article>
+    </div>
   </footer>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Aditya</a>.
   </div>
 </body>
 
